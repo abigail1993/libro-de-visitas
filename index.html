@@ -2,9 +2,106 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de visitas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col md-12">
+          <header>
+            <h1>Libro de visitas</h1>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col md-12">
+          <h2>Comentarios Pasados:</h2>
+        </div>
+      </div>
+      <div class="row" id="publicaciones">
+        <div class="col">
+          <p>Me gusta front end development </p>
+          <p>Gracias por el cotenido es super util.</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col md-12">
+          <h2>Agregar nuevo comentario</h2>
+        </div>
+      </div>
+      <div class="row" id="btn">
+        <div class="col md-1">
+          <a href="#">large</a>
+        </div>
+        <div class="col md-1">
+          <a href="#">Medium</a>
+        </div>
+        <div class="col md-1">
+          <a href="#">Small</a>
+        </div>
+        <div class="col md-1">
+          <div class="dropdown">
+           <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Color de texto</button>
+           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             <a class="dropdown-item" href="#"><input type="color" name="" value=""></a>
+           </div>
+          </div>
+
+        </div>
+        <div class="col md-1">
+          <div class="dropdown">
+           <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Color de fondo</button>
+           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             <a class="dropdown-item" href="#"><input type="color" name="" value=""></a>
+           </div>
+          </div>
+        </div>
+        <div class="col md-1">
+          <a href="#">Izquierda</a>
+        </div>
+        <div class="col md-1">
+          <a href="#">Centrar</a>
+        </div>
+        <div class="col md-1">
+          <a href="#">Derecha</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col md-12">
+          <textarea name="name" rows="5" cols="100"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col 12">
+          <h2>Asi se veria tu comentario</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="col 12" id="vista-previa">
+            <p>area donde se ve el texto modificado</p>
+          </div>
+        </div>
+      </div>
+      <button type="button" name="button">enviar comentario</button>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js">
+
+    </script>
   </body>
 </html>
