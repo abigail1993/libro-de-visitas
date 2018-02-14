@@ -1,1 +1,1 @@
-
+var $comentario = $("#vista-previa")
