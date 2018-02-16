@@ -38,44 +38,33 @@
       </div>
       <div class="row" id="btn">
         <div class="col md-1">
-          <a href="#">large</a>
+          <button class="btn btn-light" type="button" name="button" id="large">large</button>
         </div>
         <div class="col md-1">
-          <a href="#">Medium</a>
+          <button class="btn btn-light" type="button" name="button" id="medium">Medium</button>
         </div>
         <div class="col md-1">
-          <a href="#">Small</a>
+          <button class="btn btn-light" type="button" name="button" id="small">Small</button>
         </div>
         <div class="col md-1">
-          <div class="dropdown">
-           <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Color de texto</button>
-           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-             <a class="dropdown-item" href="#"><input type="color" name="" value=""></a>
-           </div>
-          </div>
-
+          <button class="btn btn-light" type="button" name="button" id="color1">Color de texto</button>
         </div>
         <div class="col md-1">
-          <div class="dropdown">
-           <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Color de fondo</button>
-           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-             <a class="dropdown-item" href="#"><input type="color" name="" value=""></a>
-           </div>
-          </div>
+          <button class="btn btn-light" type="button" name="button" id="color2">Color de fondo</button>
         </div>
         <div class="col md-1">
-          <a href="#">Izquierda</a>
+          <button class="btn btn-light" type="button" name="button" id="izquierda">Izquierda</button>
         </div>
         <div class="col md-1">
-          <a href="#">Centrar</a>
+          <button class="btn btn-light" type="button" name="button"id="centro">Centrar</button>
         </div>
         <div class="col md-1">
-          <a href="#">Derecha</a>
+          <button class="btn btn-light" type="button" name="button" id="derecha">Derecha</button>
         </div>
       </div>
       <div class="row">
         <div class="col md-12">
-          <textarea name="name" rows="5" cols="100"></textarea>
+          <textarea name="name" rows="5" cols="100" id="comentario" onkeyup="Agregar();"></textarea>
         </div>
       </div>
     </div>
@@ -88,9 +77,10 @@
       </div>
       <div class="row">
         <div class="col">
-          <div class="col 12" id="vista-previa">
-            <p>area donde se ve el texto modificado</p>
+          <div class="col 12" id="comentario-2">
+        <!--    <textarea name="name" rows="8" cols="80" id="comentario-2"></textarea>-->
           </div>
+
         </div>
       </div>
       <button type="button" name="button">enviar comentario</button>
